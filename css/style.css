@@ -1,0 +1,193 @@
+/*Base rules----------------------*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    min-height: 100vh;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.main {
+    background: grey;
+    background-image: url(/image/court.jpg);
+    background-size: cover;
+}
+
+#saying {
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+form {
+    background: white;
+    border-radius: 8px;
+    padding: 5%;
+    margin-top: 5%;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+label {
+    display: block;
+    font-size: 1.5em;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.choice {
+    font-size: 1em;
+}
+
+
+input,
+select {
+    padding: 0.5em;
+    border: none;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1) inset;
+    color: #8a97a0;
+    background-color: #e8eeef;
+    margin-left: 3em;
+}
+
+input[type="radio"] {
+    margin: 10px;
+    display: inline;
+}
+
+input[type="radio"]:first-of-type {
+    margin-left: 3em;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 3em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1em;
+    color: white;
+}
+
+footer {
+    color: #aaa;
+    background-color: #292929;
+    /*    text-align: center;*/
+}
+
+/*Layout rules------------------------*/
+
+
+.container {
+    padding: 2% 10%;
+}
+
+.main {
+    padding: 5% 10%;
+}
+
+
+
+/*Module Rules------------------------*/
+
+.logo {
+/*    color: #58cc5a;*/
+    font-family: "Bauhaus 93";
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#footer-logo {
+    color: #aaa;
+}
+
+.inline {
+    display: inline;
+}
+
+.number {
+    display: inline-block;
+    height: 1.5em;
+    width: 1.5em;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    line-height: 35px;
+    margin-right: 0.5em;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*State Rules------------------------*/
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+
+/*Theme Rules------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+.theme-color {
+    color: #58cc5a;
+}
+
+.theme-background-color {
+    background-color: #58cc5a;
+}
+
+
+/*Media Queries------------------------*/
+
+@media (min-width: 615px) {
+    label {
+        display: inline-block;
+        font-size: 1.5em;
+        width: 40%;
+        margin: 20px 0;
+    }
+
+    input,
+    select {
+        margin-left: 0em;
+    }
+
+    input[type="radio"]:first-of-type {
+        margin-left: 10px;
+    }
+
+
+}
+
+@media (min-width: 750px) {
+    #saying {
+        font-size: 4em;
+        font-weight: 700;
+        color: white;
+        margin: 0;
+    }
+}
+
+
