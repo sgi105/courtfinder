@@ -21,7 +21,7 @@ nav a {
 
 .main {
     background: grey;
-    background-image: url(/image/court.jpg);
+    background-image: url(../image/court.jpg);
     background-size: cover;
 }
 
@@ -106,7 +106,7 @@ footer {
 /*Module Rules------------------------*/
 
 .logo {
-/*    color: #58cc5a;*/
+    /*    color: #58cc5a;*/
     font-family: "Bauhaus 93";
     font-weight: normal;
     text-decoration: none;
@@ -137,9 +137,9 @@ footer {
 /*State Rules------------------------*/
 
 button:hover {
-/*    opacity: 0.9;*/
+    /*    opacity: 0.9;*/
     transform: translate(0, -5px);
-    box-shadow: 0 20px 30px -15px rgba(20,20,20,0.3);
+    box-shadow: 0 20px 30px -15px rgba(20, 20, 20, 0.3);
     transition-duration: 0.35s;
 }
 
@@ -193,5 +193,3 @@ button:active {
         margin: 0;
     }
 }
-
-
